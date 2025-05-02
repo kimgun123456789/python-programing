@@ -3,7 +3,7 @@ while True:
     item=input('상품명?')
     if item == '':
         break
-    num=input('개수?')
+    num=int(input('개수?'))
     shopping_bag[item] = num
 
     print('장바구니에 {0}가(이){1}개 담겼습니다.'.format(item,num))
